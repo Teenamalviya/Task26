@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 #from webdriver_manager.chrome import ChromeDriverManager
 
 driver = None
-#driver_path = ("C:\z.selenium drivers\chromedriver-win64\chromedriver.exe")
+#driver_path = ("C:\\chromedriver.exe")
 imdb_url = "https://www.imdb.com/search/name/"
 
 @pytest.fixture(scope="class")
